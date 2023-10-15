@@ -1,1 +1,1 @@
-pip freeze > requirements.txt
+/opt/render/project/src/.venv/bin/python -m pip install gunicorn && /opt/render/project/src/.venv/bin/python -m pip freeze > requirements.txt
